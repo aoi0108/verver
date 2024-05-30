@@ -1,0 +1,47 @@
+
+
+body {
+    background-color: #F4CA44;
+  }
+  
+  
+  .start_button{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    font-style: normal;
+    align-items: center;   
+    
+}
+
+.start_button button {
+    font-family: "Zen Maru Gothic", sans-serif;
+    margin: 0 10px; 
+    font-size: 50px;
+    font-weight: 400;
+    padding: 15px 20px;
+    border-radius: 5px;
+    color: azure;
+    background-color: #5a3527;
+}
+
+/*スタート画面の文字の設定*/
+#start_title{
+  text-align: center;
+  font-size: 100px !important;
+  font-family: "Zen Maru Gothic", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  margin-top: 20px !important;
+}
+
+#start_description {
+  text-align: center;
+  font-size: 40px;
+  font-family: "Zen Maru Gothic", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  margin-top: 50px !important;
+
+}
+

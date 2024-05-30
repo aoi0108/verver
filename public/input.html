@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Practice</title>
+    <link rel="stylesheet" href="/input.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="icon" href="icon.png">
+  </head>
+  <body>
+    <button onclick="history.back()">戻る</button>
+
+    <div class="contents_wrapper">
+      <div class="top_contents">
+        <p id="verb_name"></p>
+      </div>
+       <div class = "start_content">
+        <h1 id = "start_title">活用練習</h1>
+        <p id = "start_description">リズムに合わせて動詞を活用して発音してください。<br>⚠️スタートボタンを押すと音が流れます</h2>
+  
+        <div class = "start_button">
+          <button id="startButton">スタート！</button>
+        </div>    
+        </div>
+        <p id = "end_txt"></p>
+        <div class="practice_screen">
+          <p><span id="s1"></span> <span id="v1"></span></p>
+          <p><span id="s2"></span> <span id="v2"></span></p>
+          <p><span id="s3"></span> <span id="v3"></span></p>
+          <p><span id="s4"></span> <span id="v4"></span></p>
+          <p><span id="s5"></span> <span id="v5"></span></p>
+          <p><span id="s6"></span> <span id="v6"></span></p>
+        </div>
+    </div>
+    <script type = "module" src="/practice.js"></script>
+  </body>
+</html>

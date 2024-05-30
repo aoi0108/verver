@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <title>スペイン語学習</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@300;400;500;700;900&display=swap" rel="stylesheet">  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+    crossorigin="anonymous"
+/>
+<link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link rel="icon" href="icon.png">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-danger navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">😺</a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >ホーム</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="quiz/list">活用クイズ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="input/list">活用練習</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">使い方</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="logout.php">ログアウト</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class = "top_contents">
+      <p>スペイン語の活用の練習ができる</p>
+      <h1>スペイン語活用練習</h1>
+      <div class = "select_button">
+          <button onclick="location.href='quiz/list'">活用クイズをする</button>
+          <button onclick="location.href='input/list'">活用を練習する</button>
+      </div>
+      </div>
+      <div class = "main_contents">
+      <h2 class = "content_title">スペイン語活用練習の特徴</h2>
+      <div class = "features">
+      <div class = "feature">
+        <img class = "feature_img" src = "question.png"><br>
+        <p>活用を覚えられたか<br>クイズで確認できます！</p>
+      </div>
+      <div class = "feature">
+        <img class = "feature_img" src = "headphone.png"><br>
+        <p>活用を発音しながら<br>楽しく覚えることができます</p>
+      </div>
+      <div class = "feature">
+        <img class = "feature_img" src = "folder.png"><br>
+        <p><span class = "quiz_number"></span>問のクイズ<br><span class = "input_number"></span>単語の練習<br>ができます</p>
+      </div>
+      </div>
+      <div class = "jump_to_content">
+        <h2 class = "content_title">つかってみる！</h2>
+        <div class = "jump_boxes">
+          <div class = "jump_box">
+            <p>クイズ</h3><br>
+            <button onclick="location.href='quiz/list'">クイズをはじめる</button>
+          </div>
+          <!--ボタン動くか確認する！-->
+          <div class = "jump_box">
+            <p>活用練習</h3><br>
+            <button onclick="location.href='input/list'">練習をはじめる</button>
+          </div>
+        </div>
+      </div>
+  </div>
+      <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

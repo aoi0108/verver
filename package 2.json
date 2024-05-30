@@ -1,0 +1,16 @@
+{
+  "name": "team_nekoneko",
+  "version": "1.0.0",
+  "description": "",
+  "main": "otameshi.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "waffle.org",
+  "license": "MIT",
+  "dependencies": {
+    "express": "4.18.2"
+  }
+}

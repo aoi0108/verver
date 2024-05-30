@@ -1,0 +1,94 @@
+/*共通CSS スタート*/
+body{
+    background-color: #FFF3B8;
+  }
+  
+  .home_top{
+    background-color: #F4CA44;
+    padding:30px;
+    font-family: "Zen Maru Gothic", serif;
+    font-style: normal;
+  }
+  
+  h1{
+      text-align: center;
+      font-size: 100px;
+      font-family: "Zen Maru Gothic", sans-serif !important;
+      font-style: normal;
+  
+  }
+
+  h2{
+    font-family: "Zen Maru Gothic", serif;
+    font-style: normal;
+  }
+  h3{
+    font-family: "Zen Maru Gothic", serif;
+    font-style: normal;
+  }
+  
+  .select_button{
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+   
+
+  
+      
+  }
+  
+  .select_button button {
+      margin: 0 10px; 
+      font-size: 50px;
+      padding: 15px 20px;
+
+   
+
+  }
+  
+  /*ページトップ設定　スタート*/
+  .page_title{
+    font-size:40px;
+  }
+  /*ページトップ設定終わり*/
+  
+  /*ナビゲーション設定　スタート*/
+  a {
+    margin-right: 20px;
+  }
+  
+  /*ナビゲーション設定　終わり*/
+  
+  /*main_contents 設定スタート*/
+  .main_contents{
+    padding:5%;
+  }
+  /*main_contents 設定終わり*/
+  
+  /*共通CSS終了*/
+  
+  /*カテゴリボタンCSS 　スタート*/
+  .verb_category button {
+      background-color: #F4CA44; /* 背景色 */
+      color: white; /* 文字色 */
+      padding: 15px 32px; /* パディング */
+      text-align: center; /* 文字のアライメント */
+      text-decoration: none; /* 文字装飾 */
+      display: inline-block; /* ボタンの表示方法 */
+      font-size: 16px; /* フォントサイズ */
+      font-family: "Zen Maru Gothic", serif;
+      font-style: normal;
+      margin: 4px 2px; /* 外側の余白 */
+      cursor: pointer; /* カーソル */
+      border: none; /* ボーダーなし */
+      border-radius: 5px; /* ボーダーの角丸 */
+  }
+
+  .navbar-nav .nav-link {
+    font-family: 'Zen Maru Gothic', sans-serif;
+    font-size: 16px; /* フォントサイズを適切なサイズに変更 */
+    /* 他のスタイルも必要に応じて追加 */
+  }
+  
+  /*カテゴリボタン CSS終わり*/
+    

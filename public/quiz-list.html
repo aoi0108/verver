@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <!--Bootstrapスタート-->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+
+    <!--Bootstrap終わり-->
+    <link rel="stylesheet" href="/quiz-list.css" />
+    <link rel="icon" href="icon.png" />
+    <title>問題リスト</title>
+  </head>
+
+  <body>
+    <!--bootstrap navbar スタート-->
+    <nav class="navbar navbar-expand-lg bg-danger navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/index.html">😺</a>
+        <!--たぶんロゴ入れるところ-->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="/index.html">ホーム</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/quiz/list"
+                >活用クイズ</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/input/list">活用練習</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about.html">使い方</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--Bootstrap　navbar終わり！-->
+    <div class="main_contents">
+      <h1 class="page_title">活用クイズ</h1>
+      <h2 id="tense_title">直接法現在形</h2>
+      <h3 class="level_category">基本動詞</h3>
+      <div button class="verb_category">
+        <button onclick="location.href='./select/?mode=ar'">ar動詞</button>
+        <button onclick="location.href='./select/?mode=er'">er動詞</button>
+        <button onclick="location.href='./select/?mode=ir'">ir動詞</button>
+        <button onclick="location.href='./select/?mode=hukisoku'">
+          不規則活用動詞
+        </button>
+      </div>
+    </div>
+    <!--Bootstrap-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+    <!--Bootstrap終了-->
+  </body>
+</html>

@@ -1,0 +1,131 @@
+body{
+    background-color: #F4CA44 !important;
+}
+h1{
+    /* text-align: center;
+    font-size: 50px; */
+
+    text-align: center;
+    font-size: 100px !important;
+    font-family: "Zen Maru Gothic", sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    margin-top: 20px !important;
+}
+
+h2{
+    text-align: center;
+    font-size: 50px;
+    font-family: "Zen Maru Gothic", sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    margin-top: 50px !important;
+}
+h3{
+    text-align: left;
+    font-size: 20px;
+    font-family: "Zen Maru Gothic", sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    margin-top: 50px !important;
+}
+
+.result-box{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+.start_button{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    font-family: "Zen Maru Gothic", sans-serif;
+    font-style: normal;
+    align-items: center;
+    
+
+    
+}
+
+.start_button button {
+    margin: 0 10px; 
+    font-size: 50px;
+    font-weight: 400;
+    padding: 15px 20px;
+    border-radius: 5px;
+    color: azure;
+    background-color: #5a3527;
+}
+
+.select_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+}
+
+.select_button button{
+    margin: 0 10px;
+    font-size: 50px;
+    font-family: "Zen Maru Gothic", serif;
+    font-style: normal;
+    font-weight: 400;
+    color: azure;
+    padding: 15px 20px;
+    border-radius: 5px;
+    background-color: #5a3527;
+}
+
+.next{
+    display: flex;
+    justify-content: center;
+    height: 10vh;
+}
+
+.next button{
+    margin: 0 10px;
+    font-size: 30px;
+    font-family: "Zen Maru Gothic", serif;
+    font-style: normal;
+    color: azure;
+    padding: 10px 10px;
+    border-radius: 5px;
+    background-color: #5a3527;
+}
+
+.question_font{
+    font-size: 80px ;
+}
+
+.navbar-nav .nav-link {
+    font-family: 'Zen Maru Gothic', sans-serif;
+    font-size: 16px; /* フォントサイズを適切なサイズに変更 */
+    /* 他のスタイルも必要に応じて追加 */
+  }
+/*
+.shape {
+    width: 250px;
+    height: 250px;
+    background-image: conic-gradient(black 0deg, white 0deg);
+    clip-path: circle();
+    display: grid;
+    place-items: center;
+    z-index: 30;
+}
+
+.shape::before {
+    content: "";
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    clip-path: circle();
+}
+*/
+
+  /*ナビゲーション設定　スタート*/
+  a {
+    margin-right: 20px;
+  }
